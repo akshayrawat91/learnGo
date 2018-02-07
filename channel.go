@@ -42,7 +42,7 @@ func main()  {
 	//for{
 	//	select {
 	//	case c <- rand.Int():
-	//	case <- time.After(time.Millisecond * 100):		// the value returns channel, which that we don't care
+	//	case <- time.After(time.Millisecond * 100):		// the value returns channel, which we don't care
 	//		fmt.Println("timeout")					// we just select that channel
 	//	}
 	//	time.Sleep(time.Millisecond * 50)
